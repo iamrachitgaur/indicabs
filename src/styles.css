@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --theme-white:#ffffff;
+    --theme-seasalt:#f3f3f1;
+    --theme-gray:#eff0ec;
+    --theme-black:#000000;
+    --theme-voilet-v2:#8129d9;
+    --theme-voilet:#4d13be;
+    --border:1px solid rgba(0, 0, 0, 0.08);
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 300px) );
+    justify-content: center;
+    grid-gap: 2rem;
+}
+
+.active{
+    color: var(--theme-voilet) !important;
+  }
+  
+.text-voilet{
+    color: var(--theme-voilet);
+}
+
+.card{
+      border: none !important;
+  }
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button{
+      background-color: var(--theme-voilet) !important;
+      color: var(--theme-white) !important;
+  }
